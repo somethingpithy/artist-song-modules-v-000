@@ -1,5 +1,5 @@
 module Paramable
-  module ClassMethods
+  module InstanceMethods
 
   end
 end
