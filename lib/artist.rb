@@ -6,8 +6,8 @@ class Artist
 
   extend Memorable::ClassMethods
   extend Findable::ClassMethods
-  extend Paramable::InstanceMethods
-
+  include Paramable::InstanceMethods
+ 
   @@artists = []
 
   def initialize
